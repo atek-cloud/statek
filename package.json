@@ -1,6 +1,6 @@
 {
   "name": "statek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Atek application for hosting static websites from folders, git repos, or hyperdrives.",
   "type": "module",
   "main": "dist/index.js",
