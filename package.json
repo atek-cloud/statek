@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pfrazee/statek.git"
+    "url": "git+https://github.com/atek-cloud/statek.git"
   },
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pfrazee/statek/issues"
+    "url": "https://github.com/atek-cloud/statek/issues"
   },
-  "homepage": "https://github.com/pfrazee/statek#readme",
+  "homepage": "https://github.com/atek-cloud/statek#readme",
   "dependencies": {
     "@atek-cloud/node-rpc": "^1.1.1",
     "express": "^4.17.1",

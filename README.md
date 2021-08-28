@@ -13,7 +13,7 @@ After installing the service, configure `SOURCE_URL` to be the address of the fo
 If setting up using atek's CLI, you install Statek like this:
 
 ```
-atek install https://github.com/pfrazee/statek --config.SOURCE_URL {your_url}
+atek install https://github.com/atek-cloud/statek --config.SOURCE_URL {your_url}
 ```
 
 If you want to change the source URL, you do this:
