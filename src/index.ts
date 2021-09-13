@@ -38,7 +38,7 @@ if (sourceUrl.startsWith('file://')) {
   throw new Error('Invalid SOURCE_URL. Must be file path, git repo (https:), or hyperdrive (hyper:)')
 }
 
-const PORT = Number(process.env.ATEK_ASSIGNED_PORT)
+const SOCKETFILE = process.env.ATEK_ASSIGNED_SOCKET_FILE
 http.createServer((req, res) => {
   if (req.method === 'HEAD') {
     return res.writeHead(204).end()
@@ -66,7 +66,7 @@ http.createServer((req, res) => {
       }
     })
   }
-}).listen(PORT, () => {
-  console.log(`Statek server running at: http://localhost:${PORT}/`)
+}).listen(SOCKETFILE, () => {
+  console.log(`Statek server running at:`, SOCKETFILE)
   console.log('  Serving:', process.env.SOURCE_URL)
 })
